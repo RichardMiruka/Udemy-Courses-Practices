@@ -18,6 +18,7 @@ export default function Profile() {
         </div>
     );
 }
+
 // In the code snippet above, we have a user object with some properties. 
 // We can access these properties using dot notation.
 // We can also access the skills array and join its elements into a string using the join method.
