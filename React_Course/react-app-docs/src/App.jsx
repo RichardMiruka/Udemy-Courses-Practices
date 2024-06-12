@@ -1,5 +1,5 @@
 // React components are JavaScript functions that return markup
-function MyButton () {
+function MyButton() {
   return (
     <button>
       I am a button
@@ -7,13 +7,14 @@ function MyButton () {
   );
 }
 
-// Now that you’ve declared MyButton,
-// you can nest it into another component:
-export default function MyApp () {
+// Now that we have declared MyButton,
+// we can nest it into another component:
+export default function MyApp() {
   return (
     <div>
-      <h1> Welcome to my App</h1>
-      <MyButton /> // Nested into MyApp (which is another component) 
+      <h1>Welcome to my App</h1>
+      <MyButton />
+      {/* Nested into MyApp (which is another component) */}
     </div>
   );
 }
