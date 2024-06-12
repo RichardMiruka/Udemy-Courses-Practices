@@ -7,7 +7,7 @@ function AboutPage () {
         <>
             <h1>About</h1>
             <p> This is an about page <br /> What do you want to know about us?</p>
-            </>
+        </>
     );
 }
 
